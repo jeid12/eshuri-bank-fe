@@ -1,8 +1,8 @@
 # Use the official Node.js image as the base image
-FROM node:20
+FROM node:18-alpine
 
 # Set the working directory in the container
-WORKDIR /src
+WORKDIR /app
 
 # Copy the package.json and package-lock.json
 COPY package*.json ./
