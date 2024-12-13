@@ -14,7 +14,8 @@ RUN npm install
 COPY . .
 
 # Expose the port that the app will run on
-EXPOSE 3000
+EXPOSE 5173
+
 
 # Build the project and start the development server
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev --port 5173"]
