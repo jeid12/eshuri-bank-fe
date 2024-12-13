@@ -18,4 +18,4 @@ EXPOSE 5173
 
 
 # Build the project and start the development server
-CMD ["npm", "run", "dev --port 5173"]
+CMD ["npm", "run", "dev"]
